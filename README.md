@@ -32,6 +32,8 @@ A mini radar built from an Arduino, a servo motor, and an HC-SR04 ultrasonic sen
 
 ## Wiring
 
+![Ultrasonic Arduino Radar System pictorial wiring diagram](<Ultrasonic Arduino Radar System pictorial wiring diagram.png>)
+
 **HC-SR04 ultrasonic sensor**
 
 | Sensor pin | Arduino pin |
@@ -57,6 +59,7 @@ A mini radar built from an Arduino, a servo motor, and an HC-SR04 ultrasonic sen
 ultrasonic-arduino-radar-system/
 ├── ultrasonic_radar.ino   # Arduino sketch: servo sweep + distance measurement
 ├── radar_display.pde      # Processing sketch: radar display
+├── Ultrasonic Arduino Radar System pictorial wiring diagram.png  # Wiring diagram
 ├── LICENSE
 └── README.md
 ```
